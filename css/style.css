@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.page-wrapper{
+    width: 100%;
+}
+.header-wrapper{
+    width: 100%;
+}
+.top-header-container{
+    width: 100%;
+    background-color: #7dd9e8;
+}
+.top-header-contain{
+    width: 90%;
+    margin: auto;
+    background-color: #7dd9e8;
+    padding-bottom: 1.2%;
+}
+.logo-account{
+    width: 100%;
+}
+.web-logo{
+    width: 50%;
+    float: left;
+}
+.logo{
+    width: 100%;
+    margin-top: 3.5%;
+    
+}
+.search-web{
+    width: 100%;
+    display: none;
+}
+.search-bar-web{
+    text-align: center;
+    display: none;
+}
+.search-in-web{
+    width: 80%;
+    background-color: #caeff7;
+    border-radius: 25px;
+    margin-top: 2%;
+    display: inline-block;
+    display: none;
+}
+.btn-search-in-web{
+    background-color: #275056;
+    color: chartreuse;
+    width: 15%;
+    font-size: 60%;
+    border-radius: 25px;
+    display: inline-block; 
+    display: none;
+}
+.account{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.acc-name{
+    margin-top: 4%;
+}
+.page-navs{
+    width: 100%;
+}
+.nav{
+    margin: 0.5%;
+    display: inline-block;
+    font-size: small;
+}
+.bar{
+    border-left: 2px solid black;
+    padding-left: 1%;
+}
+.search{
+    width: 100%;
+}
+.search-bar{
+    text-align: center;
+    
+}
+.search-in{
+    width: 80%;
+    background-color: #caeff7;
+    border-radius: 25px;
+    margin-top: 2%;
+    display: inline-block; 
+}
+.btn-search-in{
+    background-color: #275056;
+    color: chartreuse;
+    width: 15%;
+    font-size: 50%;
+    border-radius: 25px;
+    display: inline-block; 
+}
+.btn-search-in:hover{
+    color: yellow;
+}
+.bottom-header-container{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.bottom-header-contain{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.gray-bar-btn{
+    display: inline-block;
+    font-size: smaller;
+    margin: 1% 2.6%;
+}
+.account-opt{
+    display: none;
+}
+
+@media only screen and (min-width: 551px){
+    .top-header-contain{
+        overflow: hidden;
+    }
+    .web-logo{
+        width: 70%;
+        float: left;
+    }
+    .logo{
+        width: 30%;
+        margin-top: 2%;
+    }
+    .search-web{
+        width: 68%;
+        display:block;
+        float: right;
+        margin-top: 3.5%;
+    }
+    .search-bar-web{
+        display: block;
+    }
+    .search-in-web{
+        display: block;
+        display: inline-block;
+    }
+    .btn-search-in-web{
+        display: block;
+        display: inline-block;
+        /* padding: 0.5%; */
+    }
+    .margin{
+        margin-top: 5%;
+    }
+    .account{
+        width: 30%;
+        float: right;
+    }
+    .search{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .search-in{
+        display: none;
+    }
+    .btn-search-in{
+        display: none;
+    }
+    .acc-name{
+        margin-top: 7%;
+        font-size: x-large;
+    }
+    .nav{
+        font-size: large;
+    }
+    .bottom-header-contain{
+        text-align: left;
+        overflow: hidden;
+    }
+    .options{
+        width: 70%;
+        float: left;
+    }
+    .gray-bar-btn{
+        font-size: large;
+    }
+    .account-opt{
+        width: 30%;
+        float: right;
+        display: block;
+    }
+    .account-opt .gray-bar-btn{
+        margin-top: 2.2%;
+    }
+    .icon{
+        display: inline-block;
+    }
+    .opt-text{
+        display: inline-block;
+    }
+}
+.main-container{
+    width: 100%;
+}
+.main-contain{
+    width: 90%;
+    margin: 3% auto;
+}
+.main-left-container{
+    width: 15%;
+    background-color: plum;
+    padding-bottom: 35%;
+    display: inline-block;
+    display: none;
+}
+.main-mid-container{
+    width: 100%;
+    background-color: plum;
+    padding-bottom: 35%;
+    margin-left: 1.5%;
+    display: inline-block;
+}
+.main-right-container{
+    width: 15%;
+    background-color: plum;
+    padding-bottom: 35%;
+    margin-left: 1.5%;
+    display: inline-block;
+    display: none;
+}
+@media only screen and (min-width: 551px){
+    .main-left-container{
+        display: inline-block;
+    }
+    .main-mid-container{
+        width: 65%;
+    }
+    .main-right-container{
+        display: inline-block;
+    }
+}
